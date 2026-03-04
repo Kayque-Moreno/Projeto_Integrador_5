@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Titulo from './components/Titulo'
+import Aluno from './components/Aluno'
+import mostrarMensagem from './components/Botao'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-     <div className='teste'>
-        <h1>Minha Primeira Aula</h1>
+     <div>
+        <Titulo/>
+        <Aluno/>
+        <button onClick={mostrarMensagem}>
+            Clique aqui para confirmar presença
+        </button>
      </div>
   )
 }
