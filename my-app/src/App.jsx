@@ -1,4 +1,6 @@
 import './App.css'
+import Clique from './components/Ex.06/Clique'
+import ContadorCliques from './components/Ex.06/ContadorCliques'
 {/*import Titulo2 from './components/Titulo2'
 import Titulo1 from './components/Titulo1'
 import Mensagem from './components/Mensagem'
@@ -8,22 +10,24 @@ import Aluno from './components/Aluno'
 import mostrarMensagem from './components/Botao'
 import capturarTexto from './components/Texto'
 import CampoNome from './components/CampoNome'
-import MensagemUsuario from './components/MensagemUsuario'*/}
+import MensagemUsuario from './components/MensagemUsuario'
 import Titulo3 from './components/Titulo3'
 import BotaoEnviar from './components/BotaoEnviar'
 import Nome from './components/Nome'
 import Email from './components/Email'
+import ContadorCliques from './components/Ex.06/ContadorCliques'*/}
 
 function App() {
 
   return (
      <div>
-         <Titulo3/>
+         <ContadorCliques/>
+         <Clique/>
+        {/* <Titulo3/>
          <Nome/>
          <Email/>
          <BotaoEnviar/>
-
-         {/*<Titulo2/>
+         <Titulo2/>
          <CampoNome/>
          <MensagemUsuario/>
          <Titulo1/>
