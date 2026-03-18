@@ -1,7 +1,11 @@
 import './App.css'
+import Formulario from './components/Cadastro_Simples/Formulario'
+{/*import Saudacao from './components/Campo_Nome_Dinamico/Saudacao'
+import Contar from './components/Contador_Interativo/Contar'
+import Titulo from './components/Contador_Interativo/Titulo'
 import Clique from './components/Ex.06/Clique'
 import ContadorCliques from './components/Ex.06/ContadorCliques'
-{/*import Titulo2 from './components/Titulo2'
+import Titulo2 from './components/Titulo2'
 import Titulo1 from './components/Titulo1'
 import Mensagem from './components/Mensagem'
 import Bottom from './components/Bottom'
@@ -21,9 +25,13 @@ function App() {
 
   return (
      <div>
+         <Formulario/>
+         {/*<Saudacao/>
+         <Contar/>
+         <Titulo/>
          <ContadorCliques/>
          <Clique/>
-        {/* <Titulo3/>
+         <Titulo3/>
          <Nome/>
          <Email/>
          <BotaoEnviar/>
