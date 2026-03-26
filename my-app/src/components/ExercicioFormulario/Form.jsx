@@ -1,6 +1,6 @@
-import {useState} from "react;
+import {useState} from "react"
 
-function Formulario(){
+function FormularioCadastro(){
     const[form,setForm] = useState({
         nome : "",
         email : "",
@@ -28,6 +28,7 @@ function Formulario(){
         console.log("Perfil: ", form.perfil);
         console.log("Receber Novidades: ", form.receber_novidades);
         console.log("Observações: ", form.observacoes);
+        alert('Cadastro realizado com sucesso!');
     }
 
     return(
@@ -36,39 +37,39 @@ function Formulario(){
 
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Nome:</label>
+                    <label>Nome: </label><br></br>
                     <input
-                        type = "text",
-                        name = "nome",
+                        type = "text"
+                        name = "nome"
                         value = {form.nome}
                         onChange={handleChange}
                     />
                 </div>
-
+                <br></br>
                 <div>
-                    <label>Email:</label>
+                    <label>Email: </label><br></br>
                     <input
-                        type = "text",
-                        name = "email",
+                        type = "text"
+                        name = "email"
                         value = {form.email}
                         onChange={handleChange}
                     />
                 </div>
-
+                <br></br>
                 <div>
-                    <label>Cidade:</label>
+                    <label>Cidade: </label><br></br>
                     <input
-                        type = "text",
-                        name = "cidade",
+                        type = "text"
+                        name = "cidade"
                         value = {form.cidade}
                         onChange={handleChange}
                     />
                 </div>
-
+                <br></br>
                 <div>
-                    <label>Perfil</label>
+                    <label>Perfil </label><br></br>
                     <select
-                        name = "perfil",
+                        name = "perfil"
                         value = {form.perfil}
                         onChange={handleChange}>
                         <option value = "">Selecione um perfil</option>
@@ -76,29 +77,29 @@ function Formulario(){
                         <option value = "usuario">Usuario</option>
                     </select>
                 </div>
-
+                <br></br>
                 <div>
-                    <label>Receber Novidades</label>
+                    <label>Receber Novidades </label>
                     <input
-                        type = "checkbox",
-                        name = "receber_novidades",
+                        type = "checkbox"
+                        name = "receber_novidades"
                         value = {form.receber_novidades}
                         onChange={handleChange}
                     />
                 </div>
-
+                <br></br>
                 <div>
-                    <label>Observações</label>
-                    <input
-                        type = "textarea",
-                        name = "observacoes",
+                    <label>Observações:</label><br></br>
+                    <textarea
+                        name = "observacoes"
                         value = {form.observacoes}
                         onChange={handleChange}
                     />
                 </div>
+                <br></br>
                 <button>CADASTRAR</button>
             </form>
         </div>
     );
 }
-export default Form;
+export default FormularioCadastro;

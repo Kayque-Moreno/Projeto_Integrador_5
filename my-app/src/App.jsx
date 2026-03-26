@@ -1,6 +1,7 @@
 import './App.css'
-import Formulario from './components/Cadastro_Simples/Formulario'
-{/*import Saudacao from './components/Campo_Nome_Dinamico/Saudacao'
+import FormularioCadastro from './components/ExercicioFormulario/Form'
+{/*import Formulario from './components/Cadastro_Simples/Formulario'
+import Saudacao from './components/Campo_Nome_Dinamico/Saudacao'
 import Contar from './components/Contador_Interativo/Contar'
 import Titulo from './components/Contador_Interativo/Titulo'
 import Clique from './components/Ex.06/Clique'
@@ -25,8 +26,9 @@ function App() {
 
   return (
      <div>
-         <Formulario/>
-         {/*<Saudacao/>
+         <FormularioCadastro/>
+         {/*<Formulario/>
+         <Saudacao/>
          <Contar/>
          <Titulo/>
          <ContadorCliques/>
