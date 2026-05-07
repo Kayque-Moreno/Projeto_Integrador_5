@@ -1,6 +1,10 @@
 import './App.css'
+import ListaAlunos from './components/AULA_06-05/EX04/ListaAlunos'
+{/*import Menu from './components/AULA_06-05/EX03/Menu'
+import ListaProdutos from './components/AULA_06-05/EX02/ListaProdutos'
+import CardSimples from './components/AULA_06-05/EX01/CardSimples'
 import CadastroLivro from './components/CadastroLivro/Cadastrar'
-{/*import FormularioCadastro from './components/ExercicioFormulario/Form'
+import FormularioCadastro from './components/ExercicioFormulario/Form'
 import Formulario from './components/Cadastro_Simples/Formulario'
 import Saudacao from './components/Campo_Nome_Dinamico/Saudacao'
 import Contar from './components/Contador_Interativo/Contar'
@@ -27,8 +31,12 @@ function App() {
 
   return (
      <div>
+      <ListaAlunos/>
+      {/*<Menu/>
+      <ListaProdutos/>
+         <CardSimples/>
          <CadastroLivro/>
-         {/*<FormularioCadastro/>
+         <FormularioCadastro/>
          <Formulario/>
          <Saudacao/>
          <Contar/>

@@ -1,0 +1,32 @@
+/* Container principal */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+}
+
+
+.produto-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 12px; 
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, filter 0.2s; 
+}
+
+
+.produto-card:hover {
+  transform: translateX(10px); 
+  filter: brightness(0.9);      
+}
+
+.nome {
+  font-weight: bold;
+}
+
+
+.card-azul { background-color: #bbdefb; }
+.card-verde { background-color: #c8e6c9; }
+.card-amarelo { background-color: #fff9c4; }
