@@ -1,0 +1,18 @@
+.produtos{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0e2e2;
+  border-radius: 15px;
+}
+
+.card-produto h3 {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.card-produto p {
+  color: #27ae60;
+  font-weight: bold;
+}

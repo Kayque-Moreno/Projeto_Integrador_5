@@ -1,0 +1,4 @@
+.botao { padding: 10px; margin: 5px; color: white; border: none; cursor: pointer; }
+.sucesso { background: green; }
+.erro { background: red; }
+.aviso { background: orange; }

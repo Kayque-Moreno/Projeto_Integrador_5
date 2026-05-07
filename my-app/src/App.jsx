@@ -1,6 +1,12 @@
 import './App.css'
+import Vitrine from './components/AULA_06-05/EX10/Vitrine'
+{/*import BotaoDinamico from './components/AULA_06-05/EX09/BotaoDinamico'
+import Produtos from './components/AULA_06-05/EX08/Produtos'
+import TelaUsuario from './components/AULA_06-05/EX07/TelaUsuario'
+import Inline from './components/AULA_06-05/EX06/Inline'
+import ListaFilme from './components/AULA_06-05/EX05/ListaFilme'
 import ListaAlunos from './components/AULA_06-05/EX04/ListaAlunos'
-{/*import Menu from './components/AULA_06-05/EX03/Menu'
+import Menu from './components/AULA_06-05/EX03/Menu'
 import ListaProdutos from './components/AULA_06-05/EX02/ListaProdutos'
 import CardSimples from './components/AULA_06-05/EX01/CardSimples'
 import CadastroLivro from './components/CadastroLivro/Cadastrar'
@@ -31,8 +37,14 @@ function App() {
 
   return (
      <div>
+      <Vitrine/>
+      {/*<BotaoDinamico/>
+      <Produtos/>
+      <TelaUsuario/>
+      <Inline/>
+      <ListaFilme/>
       <ListaAlunos/>
-      {/*<Menu/>
+      <Menu/>
       <ListaProdutos/>
          <CardSimples/>
          <CadastroLivro/>

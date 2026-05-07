@@ -1,0 +1,42 @@
+.usuarios{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(191, 190, 248);
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.usuario{
+    background-color: rgb(129, 121, 245);
+    border-radius: 15px;
+    padding: 25px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+}
+
+.usuario:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  border-color: #007bff;
+}
+
+.usuario h3 {
+  margin: 0 0 15px 0;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.usuario p {
+  margin: 8px 0;
+  color: black;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.usuario strong {
+  color: black;
+}
